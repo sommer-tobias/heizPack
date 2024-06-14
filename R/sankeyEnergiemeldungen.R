@@ -1,14 +1,17 @@
 #' Create Sankey Plots based on dataset Energiemeldungen
 #'
 #' @return A table
+#' @autoglobal
 #' @export
-#' @importFrom magrittr %>%
-#' @importFrom dplyr rename
 #' @examples
+#' \dontrun{
 #' sankeyEnergiemeldungen()
+#' }
+
 sankeyEnergiemeldungen <- function(){
   df <- energiemeldungen %>% dplyr::rename(alt = `Altes Heizsystem`, neu = `Neues Heizsystem`)
   df <- df %>% ggsankey::make_long(alt, neu)
+  df
 #
 
   # #count the occureneces in the flow

@@ -13,5 +13,7 @@ A table
 Create Sankey Plots based on dataset Energiemeldungen
 }
 \examples{
+\dontrun{
 sankeyEnergiemeldungen()
+}
 }

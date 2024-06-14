@@ -2,5 +2,5 @@
 
 export(axMap)
 export(sankeyEnergiemeldungen)
-importFrom(dplyr,rename)
 importFrom(magrittr,"%>%")
+importFrom(tibble,tribble)
