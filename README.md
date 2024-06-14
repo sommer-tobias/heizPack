@@ -20,7 +20,7 @@ devtools::install_github("sommer-tobias/heizPack")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This shows how execute the basic function of the package:
 
 ``` r
 library(heizPack)
