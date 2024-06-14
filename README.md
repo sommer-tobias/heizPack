@@ -24,10 +24,11 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(heizPack)
-direction <- 'transformAxis'
-input <-  c(800, 900, 1000)
-ax1 <- c(80,100)
-ax2 <- c(700, 1300)
-axMap(input, ax1, ax2, direction)
-#> [1] 22300 25300 28300
+sankeyEnergiemeldungen(2023)
+#> Joining with `by = join_by(x, node, next_x, next_node, n)`
+#> Joining with `by = join_by(x, node, next_x, next_node, n)`
+#> Joining with `by = join_by(x, node, next_x, next_node, n)`
+#> Joining with `by = join_by(x, node)`
 ```
+
+<img src="man/figures/README-example-1.png" width="100%" />

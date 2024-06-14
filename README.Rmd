@@ -35,11 +35,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(heizPack)
-direction <- 'transformAxis'
-input <-  c(800, 900, 1000)
-ax1 <- c(80,100)
-ax2 <- c(700, 1300)
-axMap(input, ax1, ax2, direction)
+sankeyEnergiemeldungen(2023)
 ```
 
 
