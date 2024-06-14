@@ -1,0 +1,11 @@
+Package: heizPack
+Title: Grafische Darstellung der Heizungswechsel basierend auf Energiemeldungen
+Version: 0.0.0.9000
+Authors@R: 
+    person("Tobias", "Sommer", , "tobias.sommer@lu.ch", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5274-1976"))
+Description: Zeitreihen des Heizungswechsels von 2019 bis heute.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
