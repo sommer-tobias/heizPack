@@ -2,9 +2,19 @@
 
 utils::globalVariables(c(
   "energiemeldungen", # <sankeyEnergiemeldungen>
+  "Datum Meldung", # <sankeyEnergiemeldungen>
   "Altes Heizsystem", # <sankeyEnergiemeldungen>
   "Neues Heizsystem", # <sankeyEnergiemeldungen>
   "alt", # <sankeyEnergiemeldungen>
   "neu", # <sankeyEnergiemeldungen>
+  "x", # <sankeyEnergiemeldungen>
+  "node", # <sankeyEnergiemeldungen>
+  "next_x", # <sankeyEnergiemeldungen>
+  "next_node", # <sankeyEnergiemeldungen>
+  "n", # <sankeyEnergiemeldungen>
+  "summe", # <sankeyEnergiemeldungen>
+  "xmax", # <sankeyEnergiemeldungen>
+  "flow_start_ymax", # <sankeyEnergiemeldungen>
+  "flow_start_ymin", # <sankeyEnergiemeldungen>
   NULL
 ))

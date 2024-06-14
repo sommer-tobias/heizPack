@@ -4,16 +4,19 @@
 \alias{sankeyEnergiemeldungen}
 \title{Create Sankey Plots based on dataset Energiemeldungen}
 \usage{
-sankeyEnergiemeldungen()
+sankeyEnergiemeldungen(ejahr)
+}
+\arguments{
+\item{ejahr}{Jahr der Auswertung (integer zwischen 2019 und 2023)}
 }
 \value{
-A table
+Grafik der Auswertung
 }
 \description{
 Create Sankey Plots based on dataset Energiemeldungen
 }
 \examples{
 \dontrun{
-sankeyEnergiemeldungen()
+sankeyEnergiemeldungen(2019)
 }
 }
