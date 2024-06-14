@@ -1,12 +1,13 @@
 #' Create Sankey Plots based on dataset Energiemeldungen
 #'
 #' @return A table
-#' @autoglobal
 #' @export
+#' @autoglobal
 #' @examples
 #' \dontrun{
 #' sankeyEnergiemeldungen()
 #' }
+
 
 sankeyEnergiemeldungen <- function(){
   df <- energiemeldungen %>% dplyr::rename(alt = `Altes Heizsystem`, neu = `Neues Heizsystem`)
